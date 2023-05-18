@@ -16,9 +16,7 @@ class CreateVendaParcelasTable extends Migration
         Schema::create('venda_parcelas', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('venda_id')->unsigned()->nullable();
-            $table->integer('parcela_total')->unsigned();
             $table->date('data_pagamento');
-            $table->boolean('pago');
             $table->decimal('valor', 11, 2);
             $table->boolean('ativo')->default(true);
             $table->timestamps();

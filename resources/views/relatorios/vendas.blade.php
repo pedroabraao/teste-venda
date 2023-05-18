@@ -123,7 +123,7 @@
                     <td class="text-center">{{$venda->cliente_id != null ? $venda->Cliente->nome : 'Não informado'}}</td>
                     <td class="text-center">{{$venda->Funcionario->nome}}</td>
                     <td class="text-center">R$ {{$venda->valor_total_text}}</td>
-                    <td class="text-center">{{$venda->parcela_total}}</td>
+                    <td class="text-center">{{$venda->parcela_total != null ? $venda->parcela_total : 'Nenhuma'}}</td>
                     <td class="text-center">{{$venda->parcelamento_quitado == true ? 'Quitado' : 'Não está quitado'}}</td>
                     <td class="text-center">{{$venda->ativo == true ? 'Ativo' : 'Inativo'}}</td>
                 </tr>
