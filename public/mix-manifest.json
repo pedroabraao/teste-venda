@@ -1,0 +1,11 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/admin/produto/app.js": "/js/admin/produto/app.js",
+    "/js/admin/formapagamento/app.js": "/js/admin/formapagamento/app.js",
+    "/js/admin/usuario/app.js": "/js/admin/usuario/app.js",
+    "/js/admin/venda/app.js": "/js/admin/venda/app.js",
+    "/css/styles.css": "/css/styles.css",
+    "/css/fonts.css": "/css/fonts.css",
+    "/css/app.css": "/css/app.css",
+    "/js/funcoes.js": "/js/funcoes.js"
+}
